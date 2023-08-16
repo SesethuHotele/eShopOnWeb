@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: cloud-shell-storage-westeurope
-  LOCATION: SouthernAfrica 
+  LOCATION: southafricanorth
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 68d34006-ea98-42fd-96cc-fabcd2b4b70f
   WEBAPP-NAME: az400-webapp-DEVOPSDYNAMO
